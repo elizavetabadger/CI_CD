@@ -1,0 +1,4 @@
+trigger_job:
+  trigger:
+    include:
+      - local: .gitlab-ci.yml
