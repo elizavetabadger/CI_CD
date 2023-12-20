@@ -1,0 +1,3 @@
+remote included file job:
+  script:
+    - echo "This is code from the file, which is included from another repository"
