@@ -1,4 +1,4 @@
-trigger_job:
-  trigger:
-    include:
-      - local: .gitlab-ci.yml
+job_test:
+  stage: test
+  script:
+    - echo "This is code from the file, which is included from another repository"
