@@ -1,4 +1,2 @@
-docker_test:
-  stage: test
-  script:
-    - echo "This is code from the file, which is included from another repository"
+script:
+  - echo "This is code from the file, which is included from another repository"
